@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Native Wellbeing Feed Prototype</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="phone-frame" aria-label="AI wellbeing assistant prototype embedded in a social app">
+        <header class="top-bar">
+          <div>
+            <p class="eyebrow">Following</p>
+            <h1>For You</h1>
+          </div>
+          <div class="top-actions" aria-label="Header actions">
+            <button aria-label="Wellbeing insights" class="icon-button soft">✦</button>
+            <button aria-label="Inbox" class="icon-button">⌕</button>
+          </div>
+        </header>
+
+        <section class="stories" aria-label="Stories row">
+          <article class="story wellbeing-story active">
+            <div class="story-ring calm">
+              <span>AI</span>
+            </div>
+            <p>Reset</p>
+          </article>
+          <article class="story">
+            <div class="story-ring peach"></div>
+            <p>Jules</p>
+          </article>
+          <article class="story">
+            <div class="story-ring sky"></div>
+            <p>Rin</p>
+          </article>
+          <article class="story">
+            <div class="story-ring mint"></div>
+            <p>Alex</p>
+          </article>
+          <article class="story">
+            <div class="story-ring rose"></div>
+            <p>Dee</p>
+          </article>
+        </section>
+
+        <section class="feed" aria-label="Scrolling feed">
+          <article class="reel-card hero-card">
+            <div class="video-surface aurora">
+              <div class="surface-gradient"></div>
+              <div class="hero-meta">
+                <span class="chip live-chip">Context-aware nudge</span>
+                <h2>You’ve been watching high-intensity clips for 18 minutes.</h2>
+                <p>
+                  Want a softer mix for the next few swipes? The feed can gently shift toward calming, funny,
+                  or close-friend content.
+                </p>
+                <div class="hero-actions">
+                  <button class="pill-button primary">Soften feed</button>
+                  <button class="pill-button secondary">Keep current vibe</button>
+                </div>
+              </div>
+              <aside class="engagement-stack" aria-label="Engagement actions">
+                <button class="stack-button">♡<span>12.4k</span></button>
+                <button class="stack-button">💬<span>381</span></button>
+                <button class="stack-button">↗<span>Share</span></button>
+              </aside>
+            </div>
+          </article>
+
+          <article class="intervention-card">
+            <div class="intervention-copy">
+              <span class="chip ghost">Subtle support</span>
+              <h3>Mini check-in</h3>
+              <p>
+                Your scrolling pace sped up and comment sentiment looks tense. A 10-second breath break could help.
+              </p>
+            </div>
+            <div class="option-row">
+              <button class="option-card selected">
+                <strong>Take a breath</strong>
+                <span>10 seconds • stays in feed</span>
+              </button>
+              <button class="option-card">
+                <strong>Skip for now</strong>
+                <span>No interruption</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="reel-card content-card">
+            <div class="video-surface sunset">
+              <div class="post-header">
+                <div class="avatar coral"></div>
+                <div>
+                  <h3>@friends.of.mina</h3>
+                  <p>Shared 2h ago</p>
+                </div>
+              </div>
+              <div class="caption-block">
+                <p class="caption-title">Photo dump + tiny wins this week ✨</p>
+                <p class="caption-copy">
+                  The assistant quietly prioritized people you interact with most after a long late-night session.
+                </p>
+              </div>
+              <div class="inline-pill-row">
+                <span class="inline-pill">Closer connections</span>
+                <span class="inline-pill">Lower stimulation</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="intervention-card compact">
+            <div class="intervention-copy">
+              <span class="chip ghost">Smart pause</span>
+              <h3>Bedtime mode can fade autoplay at 11:30 PM.</h3>
+            </div>
+            <button class="pill-button primary small">Turn on tonight</button>
+          </article>
+
+          <article class="reel-card content-card">
+            <div class="video-surface lagoon">
+              <div class="post-header">
+                <div class="avatar teal"></div>
+                <div>
+                  <h3>@move.with.lee</h3>
+                  <p>Suggested reset</p>
+                </div>
+              </div>
+              <div class="caption-block lower">
+                <span class="chip live-chip quiet">Mood lift</span>
+                <p class="caption-title">One-minute shoulder stretch between reels.</p>
+                <p class="caption-copy">Integrated like normal content so it feels familiar, not forced.</p>
+              </div>
+              <div class="music-bar">
+                <span>♫ gentle focus mix</span>
+                <span>0:58</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <nav class="bottom-nav" aria-label="Primary navigation">
+          <button class="nav-item active">⌂<span>Home</span></button>
+          <button class="nav-item">▷<span>Reels</span></button>
+          <button class="nav-item emphasis">＋</button>
+          <button class="nav-item">❤<span>Activity</span></button>
+          <button class="nav-item">◌<span>Profile</span></button>
+        </nav>
+      </section>
+    </main>
+  </body>
+</html>
